@@ -3,6 +3,6 @@
   get_url:
     url: "{{ kafka_jolokia_url }}"
     dest: "{{ kafka_jolokia_lib_dir }}"
-    owner: root
-    group: root
+    owner: "{{ jolokia_user }}"
+    group: "{{ jolokia_group }}"
     mode: 0644

@@ -3,5 +3,5 @@
   file:
     path: "{{ jolokia_lib_dir }}"
     state: directory
-    user: "{{ jolokia_user }}"
+    owner: "{{ jolokia_user }}"
     group: "{{ jolokia_group }}"
