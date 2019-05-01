@@ -1,0 +1,8 @@
+---
+- include_tasks: jolokia_pre.yml
+- include_tasks: jolokia_install.yml
+
+- block:
+  - include_tasks: jolokia_post.yml
+  tags:
+    - jolokia-config
