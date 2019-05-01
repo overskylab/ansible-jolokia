@@ -1,0 +1,8 @@
+---
+jolokia_user: root
+jolokia_group: root
+jolokia_lib_dir: /var/lib/jolokia
+
+jolokia_version: 1.6.0
+jolokia_package_filename: jolokia-jvm-{{ jolokia_version }}-agent.jar
+jolokia_url: "http://search.maven.org/remotecontent?filepath=org/jolokia/jolokia-jvm/{{ jolokia_version }}/{{ jolokia_package_filename }}"

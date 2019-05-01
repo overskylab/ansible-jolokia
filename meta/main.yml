@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  role_name: jolokia
+  author: Teerawat Namsricharoensuk
+  description: Ansible role to install and Jolokia
+  license: "MIT"
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+  galaxy_tags:
+    - jolokia
+    - monitor
+    - jmx
+dependencies: []

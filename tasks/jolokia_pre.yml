@@ -1,0 +1,7 @@
+---
+- name: Create jolokia lib directory
+  file:
+    path: "{{ jolokia_lib_dir }}"
+    state: directory
+    user: "{{ jolokia_user }}"
+    group: "{{ jolokia_group }}"
